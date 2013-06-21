@@ -1,0 +1,12 @@
+[submodule "dojo"]
+	path = dojo
+	url = git@github.com:encuestame/dojo.git
+[submodule "dijit"]
+	path = dijit
+	url = git@github.com:encuestame/dijit.git
+[submodule "me"]
+	path = me
+	url = git@github.com:encuestame/me.git
+[submodule "dojox"]
+	path = dojox
+	url = git@github.com:encuestame/dojox.git
