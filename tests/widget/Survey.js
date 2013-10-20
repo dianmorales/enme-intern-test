@@ -41,7 +41,7 @@ define([
     TweetPollPublishItemStatus,
     TweetPollPublishItemSUCCESStatus) {
     registerSuite({
-        name: 'TweetPoll Widgets',
+        name: 'Survey Widgets',
         
         'default data': function () {
             var tweetPollList = new TweetPollList({

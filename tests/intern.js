@@ -3,6 +3,7 @@
 // packages, suites, excludeInstrumentation, and (if you want functional tests) functionalSuites.
 define({
 	// The port on which the instrumenting proxy will listen
+	//http://addyosmani.com/blog/making-maven-grunt/
 	proxyPort: 9000,
 
 	// A fully qualified URL to the Intern proxy
@@ -26,7 +27,8 @@ define({
 		{ browserName: 'internet explorer', version: '9', platform: 'Windows 7' },
 		{ browserName: 'firefox', version: '23', platform: [ 'Linux', 'Windows 7' ] },
 		{ browserName: 'firefox', version: '21', platform: 'Mac 10.6' },
-		{ browserName: 'chrome', platform: [ 'Linux', 'Mac 10.8', 'Windows 7' ] },
+		{ browserName: 'chrome', platform: [ 'Linux', 'Mac 10.8', 'Windows 7' ] }
+		//{ browserName: 'phantom' }
 		//{ browserName: 'safari', version: '6', platform: 'Mac 10.8' }
 	],
 
@@ -52,7 +54,9 @@ define({
 			{ name: 'me', location: '../js/me' },
 			{ name: 'dojo', location: '../js/dojo' },
 			{ name: 'dojox', location: '../js/dojox' },
-			{ name: 'dijit', location: '../js/dijit' }
+			{ name: 'dijit', location: '../js/dijit' },
+			{ name: 'chart', location: '../js/chart' },
+			{ name: 'Modernizr', location: 'js/lib/Modernizr', main : 'Modernizr' }
 		]
 	},
 
