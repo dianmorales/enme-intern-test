@@ -19,9 +19,6 @@
 [submodule "js/raphael.git"]
 	path = js/raphael.git
 	url = git://github.com/encuestame/raphael.git
-[submodule "js/eve.git"]
-	path = js/eve.git
-	url = git://github.com/encuestame/eve.git
 [submodule "js/widget-enme"]
 	path = js/widget-enme
 	url = git://github.com/juanpicado/widget-enme
