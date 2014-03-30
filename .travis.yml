@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "0.8"
+  - "0.10"
+env:
+  global:
+    # Sauce Labs are OK with this and it is currently necessary to expose this information for testing pull requests;
+    # please get your own free key if you want to test yourself
+    - SAUCE_USERNAME: jotadeveloper
+    - SAUCE_ACCESS_KEY: a7a381a1-06d0-4416-8e89-fe449e663c0f
+install:
+  - npm install
+script: npm test

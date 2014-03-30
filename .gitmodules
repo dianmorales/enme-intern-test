@@ -22,3 +22,12 @@
 [submodule "js/widget-enme"]
 	path = js/widget-enme
 	url = git://github.com/juanpicado/widget-enme
+[submodule "js/chart/g.raphael"]
+	path = js/chart/g.raphael
+	url = git://github.com/encuestame/g.raphael.git
+[submodule "js/chart/eve"]
+	path = js/chart/eve
+	url = git://github.com/encuestame/eve.git
+[submodule "js/chart/raphael"]
+	path = js/chart/raphael
+	url = git://github.com/encuestame/raphael.git
