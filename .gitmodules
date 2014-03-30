@@ -1,0 +1,27 @@
+[submodule "js/me"]
+	path = js/me
+	url = https://github.com/encuestame/me.git
+[submodule "js/dojox"]
+	path = js/dojox
+	url = https://github.com/dojo/dojox.git
+[submodule "js/dojo"]
+	path = js/dojo
+	url = https://github.com/dojo/dojo.git
+[submodule "js/dijit"]
+	path = js/dijit
+	url = https://github.com/dojo/dijit.git
+[submodule "js/util"]
+	path = js/util
+	url = https://github.com/dojo/util.git
+[submodule "js/g.raphael.git"]
+	path = js/g.raphael.git
+	url = git://github.com/encuestame/g.raphael.git
+[submodule "js/raphael.git"]
+	path = js/raphael.git
+	url = git://github.com/encuestame/raphael.git
+[submodule "js/eve.git"]
+	path = js/eve.git
+	url = git://github.com/encuestame/eve.git
+[submodule "js/widget-enme"]
+	path = js/widget-enme
+	url = git://github.com/juanpicado/widget-enme
