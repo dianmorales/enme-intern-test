@@ -1,6 +1,8 @@
 enme-intern-test
 ================
 
+[![Build Status](https://travis-ci.org/encuestame/enme-intern-test.svg)](https://travis-ci.org/encuestame/enme-intern-test)
+
 ## Setup
 
 1. The repository should accessible via a local HTTP server.
