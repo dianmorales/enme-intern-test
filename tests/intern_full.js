@@ -24,33 +24,60 @@ define({
 	},
 
 	environments: [
-		{ browserName: 'firefox', version: ['17', '18', '19', '20'],
-			platform: [ 'Linux', 'Mac 10.6', 'Windows 2003', 'Windows 2012' ] },
-
-		{ browserName: 'safari', version: ['3', '4'], platform: [ 'Windows 2003' ] },
-		{ browserName: 'safari', version: '5', platform: [ 'Mac 10.6', 'Windows 2003', 'Windows 2008' ] },
-		{ browserName: 'safari', version: '6', platform: [ 'Mac 10.8' ] },
-
-		{ browserName: 'ipad', version: '5.1', platform: [ 'Mac 10.8' ] },
-		{ browserName: 'ipad', version: '6', platform: [ 'Mac 10.8' ] },
-		{ browserName: 'ipad', version: '4.3', platform: [ 'Mac 10.6' ] },
-		{ browserName: 'ipad', version: '5', platform: [ 'Mac 10.6' ] },
-
-		{ browserName: 'iphone', version: '5.1', platform: [ 'Mac 10.8' ] },
-		{ browserName: 'iphone', version: '6', platform: [ 'Mac 10.8' ] },
-		{ browserName: 'iphone', version: '5', platform: [ 'Mac 10.6' ] },
-
-		{ browserName: 'opera', version: ['11'], platform: [ 'Windows 2003', 'Windows 2008', 'Windows 2012' ] },
-		{ browserName: 'opera', version: '12', platform: [ 'Linux', 'Windows 2003', 'Windows 2008' ] },
-
-		{ browserName: 'chrome', platform: [ 'Mac 10.6', 'Mac 10.8', 'Windows 2003', 'Windows 2008' ] },
-
-		{ browserName: 'internet explorer', version: '6', platform: ['Windows 2003'] },
-		{ browserName: 'internet explorer', version: ['7','8'], platform: ['Windows 2003', 'Windows 2008'] },
-		{ browserName: 'internet explorer', version: '9', platform: ['Windows 2008'] },
-		{ browserName: 'internet explorer', version: '10', platform: ['Windows 2012'] },
-
-		{ browserName: 'android', version: '4', platform: ['Linux'] }
+		{
+			browserName: 'firefox', version: ['20', '22', '25', '28'], platform: [ 'Linux', 'OS X 10.9', 'OS X 10.6', 'Windows 8.1', 'Windows 8', 'Windows 7', 'Windows XP' ]
+		},
+		{
+			browserName: 'safari', version: '7', platform: [ 'Mac 10.6', 'Windows 2003', 'Windows 2008' ]
+		},
+		{
+			browserName: 'safari', version: '6', platform: [ 'OS X 10.8' ]
+		},
+		{
+			browserName: 'ipad', version: '6.1', platform: [ 'OS X 10.8' ]
+		},
+		{
+			browserName: 'ipad', version: '7.1', platform: [ 'OS X 10.9' ]
+		},
+		{
+			browserName: 'ipad', version: '7.0', platform: [ 'OS X 10.9' ]
+		},
+		{
+			browserName: 'iphone', version: '7.0', platform: [ 'OS X 10.9' ]
+		},
+		{
+			browserName: 'iphone', version: '6.1', platform: [ 'OS X 10.8' ]
+		},
+		{
+			browserName: 'iphone', version: '7.0', platform: [ 'OS X 10.9' ]
+		},
+		{
+			browserName: 'opera', version: '12', platform: [ 'Windows 7', 'Windows XP', 'Linux' ]
+		},
+		{
+			browserName: 'chrome', version: '33', platform: [ 'OS X 10.6', 'OS X 10.8', 'OS X 10.9', 'Linux', 'Windows XP', 'Windows 7', 'Windows 8', 'Windows 8.1' ]
+		},
+		{
+			browserName: 'chrome', version: '28', platform: [ 'OS X 10.6', 'OS X 10.8', 'Linux', 'Windows XP', 'Windows 7', 'Windows 8', 'Windows 8.1' ]
+		},
+		{
+			browserName: 'internet explorer', version: '9', platform: ['Windows 7']
+		},
+		{
+			browserName: 'internet explorer', version: '10', platform: ['Windows 7', 'Windows 8']
+		},
+		{
+			browserName: 'internet explorer', version: '11', platform: ['Windows 8.1']
+		},
+		{
+			browserName: 'android', version: '4.3', platform: ['Linux']
+		},
+		{
+			browserName: 'android', version: '4.2', platform: ['Linux']
+		},
+		{
+			browserName: 'android', version: '4.0', platform: ['Linux']
+		}
 	],
 
 	maxConcurrency: 3,
