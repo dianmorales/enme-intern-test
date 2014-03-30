@@ -25,10 +25,10 @@ define({
 
 	environments: [
 		{
-			browserName: 'firefox', version: ['20', '22', '25', '28'], platform: [ 'Linux', 'OS X 10.9', 'OS X 10.6', 'Windows 8.1', 'Windows 8', 'Windows 7', 'Windows XP' ]
+			browserName: 'firefox', version: ['28'], platform: [ 'Linux', 'OS X 10.9', 'Windows 8.1', 'Windows 8', 'Windows 7', 'Windows XP' ]
 		},
 		{
-			browserName: 'safari', version: '7', platform: [ 'Mac 10.6', 'Windows 2003', 'Windows 2008' ]
+			browserName: 'safari', version: '7', platform: [ 'OS X 10.9', 'Windows 2003', 'Windows 2008' ]
 		},
 		{
 			browserName: 'safari', version: '6', platform: [ 'OS X 10.8' ]
@@ -45,20 +45,21 @@ define({
 		{
 			browserName: 'iphone', version: '7.0', platform: [ 'OS X 10.9' ]
 		},
-		{
-			browserName: 'iphone', version: '6.1', platform: [ 'OS X 10.8' ]
-		},
+//		{
+//			browserName: 'iphone', version: '6.1', platform: [ 'OS X 10.8' ] //not supported
+//		},
 		{
 			browserName: 'iphone', version: '7.0', platform: [ 'OS X 10.9' ]
 		},
 		{
-			browserName: 'opera', version: '12', platform: [ 'Windows 7', 'Windows XP', 'Linux' ]
+			browserName: 'opera', version: '12', platform: [ 'Windows 7', 'Linux' ]
 		},
 		{
 			browserName: 'chrome', version: '33', platform: [ 'OS X 10.6', 'OS X 10.8', 'OS X 10.9', 'Linux', 'Windows XP', 'Windows 7', 'Windows 8', 'Windows 8.1' ]
 		},
 		{
-			browserName: 'chrome', version: '28', platform: [ 'OS X 10.6', 'OS X 10.8', 'Linux', 'Windows XP', 'Windows 7', 'Windows 8', 'Windows 8.1' ]
+			//'OS X 10.6',
+			browserName: 'chrome', version: '28', platform: [ 'OS X 10.8', 'Linux', 'Windows XP', 'Windows 7', 'Windows 8', 'Windows 8.1' ]
 		},
 		{
 			browserName: 'internet explorer', version: '9', platform: ['Windows 7']
@@ -69,12 +70,12 @@ define({
 		{
 			browserName: 'internet explorer', version: '11', platform: ['Windows 8.1']
 		},
-		{
-			browserName: 'android', version: '4.3', platform: ['Linux']
-		},
-		{
-			browserName: 'android', version: '4.2', platform: ['Linux']
-		},
+//		{
+//			browserName: 'android', version: '4.3', platform: ['Linux']
+//		},
+//		{
+//			browserName: 'android', version: '4.2', platform: ['Linux']
+//		},
 		{
 			browserName: 'android', version: '4.0', platform: ['Linux']
 		}
