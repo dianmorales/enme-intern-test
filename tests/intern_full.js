@@ -26,7 +26,7 @@ define({
 	environments: [
 		{
 			//'Windows 8',
-			browserName: 'firefox', version: ['27'], platform: [ 'Linux', 'OS X 10.9', 'Windows 8.1', 'Windows 7', 'Windows XP' ]
+			browserName: 'firefox', version: ['20','24','26','28'], platform: [ 'Linux', 'OS X 10.9', 'Windows 8.1', 'Windows 7', 'Windows XP' ]
 		},
 		{
 			browserName: 'safari', version: '7', platform: [ 'OS X 10.9' ]
@@ -78,9 +78,9 @@ define({
 //		{
 //			browserName: 'android', version: '4.2', platform: ['Linux']
 //		},
-		{
-			browserName: 'android', version: '4.0', platform: ['Linux']
-		}
+//		{
+//			browserName: 'android', version: '4.0', platform: ['Linux']
+//		}
 	],
 
 	maxConcurrency: 3,
