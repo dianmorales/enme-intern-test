@@ -20,7 +20,7 @@ define({
 	proxyUrl: 'http://localhost:9000/',
 
 	capabilities: {
-		'selenium-version': '2.30.0'
+		'selenium-version': '2.41.0'
 	},
 
 	environments: [
