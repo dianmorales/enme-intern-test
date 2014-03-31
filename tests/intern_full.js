@@ -25,17 +25,19 @@ define({
 
 	environments: [
 		{
-			browserName: 'firefox', version: ['28'], platform: [ 'Linux', 'OS X 10.9', 'Windows 8.1', 'Windows 8', 'Windows 7', 'Windows XP' ]
+			//'Windows 8',
+			browserName: 'firefox', version: ['27'], platform: [ 'Linux', 'OS X 10.9', 'Windows 8.1', 'Windows 7', 'Windows XP' ]
 		},
 		{
-			browserName: 'safari', version: '7', platform: [ 'OS X 10.9', 'Windows 2003', 'Windows 2008' ]
+			browserName: 'safari', version: '7', platform: [ 'OS X 10.9' ]
 		},
 		{
 			browserName: 'safari', version: '6', platform: [ 'OS X 10.8' ]
 		},
-		{
-			browserName: 'ipad', version: '6.1', platform: [ 'OS X 10.8' ]
-		},
+		//Browser failed to start error
+//		{
+//			browserName: 'ipad', version: '6.1', platform: [ 'OS X 10.8' ]
+//		},
 		{
 			browserName: 'ipad', version: '7.1', platform: [ 'OS X 10.9' ]
 		},
