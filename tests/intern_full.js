@@ -26,7 +26,7 @@ define({
 	environments: [
 		{
 			//'Windows 8',
-			browserName: 'firefox', version: ['20','24','26','28'], platform: [ 'Linux', 'OS X 10.9', 'Windows 8.1', 'Windows 7', 'Windows XP' ]
+			browserName: 'firefox', version: ['22','24','26','28'], platform: [ 'Linux', 'OS X 10.9', 'Windows 8.1', 'Windows 7', 'Windows XP' ]
 		},
 		{
 			browserName: 'safari', version: '7', platform: [ 'OS X 10.9' ]
