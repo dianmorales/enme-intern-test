@@ -1,6 +1,6 @@
 define([
 	//'./model/SimpleTodoModel'
-	'../js/init',
+	//'../js/init',
 	//'../js/commons',
 	'./core/enme',
 	'./core/_base/_config'
