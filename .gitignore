@@ -21,7 +21,7 @@ release.properties
 */buildNumber.properties
 buildNumber.properties
 */.project
-node_modules/*
+**/node_modules/**
 .project
 .classpath
 */.buildpath/*

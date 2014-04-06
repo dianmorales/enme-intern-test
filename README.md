@@ -48,5 +48,12 @@ The application should be accessible via `http://somePath/tests/` after the url 
 Encuestame is currently connected with Travis continous integration, every push trigger a remote build.
 
 ### Selenium
+Run Intern locally is straightforward, follow the next steps:
 
-//TODO: Local configuration via Selenium
+````
+$ brew install selenium-server-standalone chromedriver
+$ git clone git@github.com:theintern/intern.git
+$ java -jar /usr/local/opt/selenium-server-standalone/selenium-server-standalone-2.xx.0.jar -p 4444 &
+$ node node_modules/intern/runner.js config=tests/selenium.local.test
+````
+### 

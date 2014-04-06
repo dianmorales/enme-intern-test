@@ -1,9 +1,6 @@
 define([
 	//'./model/SimpleTodoModel'
-	'../js/init',
-	//'../js/commons',
-	'./core/enme',
-	'./core/_base/_config'
+	'./core/enme'
 //	'intern/node_modules/dojo/has!host-browser?./widget/TweetPoll',
 //	'intern/node_modules/dojo/has!host-browser?./widget/Poll',
 //	'intern/node_modules/dojo/has!host-browser?./widget/Folders',
