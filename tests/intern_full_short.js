@@ -32,6 +32,8 @@ define({
 	maxConcurrency: 3,
 	useSauceConnect: true,
 
+	reporters : 'runner',
+
 	// Connection information for the remote WebDriver service. If using Sauce Labs, keep your username and password
 	// in the SAUCE_USERNAME and SAUCE_ACCESS_KEY environment variables unless you are sure you will NEVER be
 	// publishing this configuration file somewhere
