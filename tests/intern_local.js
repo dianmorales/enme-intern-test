@@ -96,7 +96,9 @@ define({
 	environments: [
 		//{ browserName: 'chrome', version: '', platform: [ 'Linux', 'OS X 10.6', 'Windows 7' ] },
 		//{ browserName: 'safari', version: '6', platform: 'OS X 10.8' }
-		{ browserName: 'phantom' }
+		{
+			browserName: 'chrome'
+		}
 	],
 
 	// Maximum number of simultaneous integration tests that should be executed on the remote WebDriver service
