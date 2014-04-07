@@ -2,7 +2,8 @@ define([
 	//'../js/init',
 	//'../js/commons',
 	'./core/enme',
-	'./core/_base/_config'
+	'./core/_base/_config',
+	'intern/node_modules/dojo/has!host-browser?./core/features/base'
 //	'intern/node_modules/dojo/has!host-browser?./widget/TweetPoll',
 //	'intern/node_modules/dojo/has!host-browser?./widget/Poll',
 //	'intern/node_modules/dojo/has!host-browser?./widget/Folders',

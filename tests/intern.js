@@ -102,6 +102,8 @@ define({
 	// Maximum number of simultaneous integration tests that should be executed on the remote WebDriver service
 	maxConcurrency: 3,
 
+	//reporters : ''
+
 	// Whether or not to start Sauce Connect before running tests
 	useSauceConnect: false,
 
@@ -131,7 +133,9 @@ define({
 		// Packages that should be registered with the loader in each testing environment
 		packages: [
 			{ name: 'me', location: 'js/me' },
+
 			{ name: 'dojo', location: 'js/dojo' },
+			{ name: 'dojo19', location: 'js/dojo' },
 			{ name: 'dojox', location: 'js/dojox' },
 			{ name: 'dijit', location: 'js/dijit' },
 			{ name: 'chart', location: 'js/chart' },
