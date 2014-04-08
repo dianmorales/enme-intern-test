@@ -80,6 +80,13 @@ define({
 	// A fully qualified URL to the Intern proxy
 	proxyUrl: 'http://localhost:9000/',
 
+	reporters: [
+		'lcovhtml',
+		'cobertura',
+		'console',
+		'lcov'
+	],
+
 	// Default desired capabilities for all environments. Individual capabilities can be overridden by any of the
 	// specified browser environments in the `environments` array below as well. See
 	// https://code.google.com/p/selenium/wiki/DesiredCapabilities for standard Selenium capabilities and
@@ -97,7 +104,7 @@ define({
 		//{ browserName: 'chrome', version: '', platform: [ 'Linux', 'OS X 10.6', 'Windows 7' ] },
 		//{ browserName: 'safari', version: '6', platform: 'OS X 10.8' }
 		{
-			browserName: 'chrome'
+			browserName: 'phantom'
 		}
 	],
 
