@@ -5,9 +5,9 @@ Encuestame UI is based in Dojo Widgets, we use [Intern](http://theintern.io/) to
 [![Build Status](https://travis-ci.org/encuestame/enme-intern-test.svg?branch=grunt-enme-intern)](https://travis-ci.org/encuestame/enme-intern-test)
 
 
-[![Selenium Test Status](https://saucelabs.com/buildstatus/wdjs)](https://saucelabs.com/u/jotadeveloper)
+[![Selenium Test Status](https://saucelabs.com/buildstatus/jotadeveloper)](https://saucelabs.com/u/jotadeveloper)
 
-[![Selenium Test Status](https://saucelabs.com/browser-matrix/wdjs.svg)](https://saucelabs.com/u/jotadeveloper)
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/jotadeveloper.svg)](https://saucelabs.com/u/jotadeveloper)
 
 ### Setup
 
