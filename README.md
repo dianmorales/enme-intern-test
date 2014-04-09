@@ -2,7 +2,12 @@ Encuestame Widget Testing with Intern
 ================
 Encuestame UI is based in Dojo Widgets, we use [Intern](http://theintern.io/) to manage the Unit and Functional testing, this is a prototype project in beta phase.
 
-[![Build Status](https://travis-ci.org/encuestame/enme-intern-test.svg)](https://travis-ci.org/encuestame/enme-intern-test)
+[![Build Status](https://travis-ci.org/encuestame/enme-intern-test.svg?branch=grunt-enme-intern)](https://travis-ci.org/encuestame/enme-intern-test)
+
+
+[![Selenium Test Status](https://saucelabs.com/buildstatus/wdjs)](https://saucelabs.com/u/jotadeveloper)
+
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/wdjs.svg)](https://saucelabs.com/u/jotadeveloper)
 
 ### Setup
 
