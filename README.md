@@ -1,5 +1,10 @@
-enme-intern-test
-================
+## Branch outdated
+
+Currently I'm working in a new branch  **grunt-enme-intern**, the new branch has a better structure of modules.
+
+https://github.com/encuestame/enme-intern-test/tree/grunt-enme-intern
+
+This branch is still linked to Encuestame **1.147**
 
 ## Setup
 
