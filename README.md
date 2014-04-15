@@ -1,10 +1,18 @@
-## Branch outdated
+## Outdated branch
 
 Currently I'm working in a new branch  **grunt-enme-intern**, the new branch has a better structure of modules.
 
 https://github.com/encuestame/enme-intern-test/tree/grunt-enme-intern
 
 This branch is still linked to Encuestame **1.147**
+
+[![Build Status](https://travis-ci.org/encuestame/enme-intern-test.svg?branch=grunt-enme-intern)](https://travis-ci.org/encuestame/enme-intern-test)
+
+
+[![Selenium Test Status](https://saucelabs.com/buildstatus/jotadeveloper)](https://saucelabs.com/u/jotadeveloper)
+
+[![Selenium Test Status](https://saucelabs.com/browser-matrix/jotadeveloper.svg)](https://saucelabs.com/u/jotadeveloper)
+
 
 ## Setup
 
