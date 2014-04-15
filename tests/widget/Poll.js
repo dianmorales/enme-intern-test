@@ -19,12 +19,12 @@ define([
     AnswerVote,
     PollVote) {
     registerSuite({
-        name: 'TweetPoll Widgets',
+        name: 'Poll Widgets',
         
         'default data': function () {
-            var pollNavigate = new PollNavigate({
-
-            });            
+//            var pollNavigate = new PollNavigate({
+//
+//            });
         }
     });
 });

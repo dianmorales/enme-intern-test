@@ -7,7 +7,7 @@
 		"test": "intern-runner config=tests/intern_full_short"
 	},
 	"devDependencies": {
-		"intern": "1.5.0",
+		"intern": "1.6.0",
 		"express": "3.4.0"
 	}
 }

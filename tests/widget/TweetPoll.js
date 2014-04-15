@@ -44,9 +44,9 @@ define([
         name: 'TweetPoll Widgets',
         
         'default data': function () {
-            var tweetPollList = new TweetPollList({
-
-            });
+//            var tweetPollList = new TweetPollList({
+//
+//            });
         },       
     });
 });

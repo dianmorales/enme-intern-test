@@ -13,7 +13,7 @@ define([
     EncuestamePieChart,
     RaphaelSupport) {
     registerSuite({
-        name: 'Folder Widgets',
+        name: 'Encuestame Pie Chart',
         
         'default data': function () {
             var encuestamePieChart = new EncuestamePieChart({

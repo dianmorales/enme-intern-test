@@ -101,10 +101,10 @@ define({
 	// OnDemand. Options that will be permutated are browserName, version, platform, and platformVersion; any other
 	// capabilities options specified for an environment will be copied as-is
 	environments: [
-		//{ browserName: 'chrome', version: '', platform: [ 'Linux', 'OS X 10.6', 'Windows 7' ] },
+		//{ browserName:  phantom 'chrome', version: '', platform: [ 'Linux', 'OS X 10.6', 'Windows 7' ] },
 		//{ browserName: 'safari', version: '6', platform: 'OS X 10.8' }
 		{
-			browserName: 'phantom'
+			browserName: 'chrome'
 		}
 	],
 

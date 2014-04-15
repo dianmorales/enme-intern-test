@@ -1,6 +1,7 @@
 define([
     'intern!object',
     'intern/chai!assert',
+	'dojo/parser',
     'me/web/widget/hashtags/HashtagChart',
     'me/web/widget/hashtags/HashTagGraph',
     'me/web/widget/hashtags/HashTagGraphStatsButton',
@@ -9,18 +10,20 @@ define([
 ], function (
     registerSuite,
     assert,
+    parser,
     HashtagChart,
     HashTagGraph,
     HashTagGraphStatsButton,
     HashTagGraphStatsUsageHandler,
     Cloud) {
     registerSuite({
-        name: 'Folder Widgets',
+        name: 'Cloud Widget',
         
         'default data': function () {
             var cloud = new Cloud({
 
             });
+	        parser.parse();
         }      
     });
 });

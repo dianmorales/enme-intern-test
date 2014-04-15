@@ -47,7 +47,7 @@ define([
 
 		get: function () {
 			var path = _config.get('contextPath')
-			assert.strictEqual(path, '/', 'context path by default /');
+			assert.strictEqual(path, '../../json', 'context path by default /');
 		}
 	});
 });
