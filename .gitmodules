@@ -31,3 +31,9 @@
 [submodule "js/chart/raphael"]
 	path = js/chart/raphael
 	url = git://github.com/encuestame/raphael.git
+[submodule "webdrivers/selendroid"]
+	path = webdrivers/selendroid
+	url = https://github.com/selendroid/selendroid.git
+[submodule "webdrivers/appium"]
+	path = webdrivers/appium
+	url = https://github.com/appium/appium.git

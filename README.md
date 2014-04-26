@@ -26,39 +26,36 @@ The application should be accessible via `http://somePath/tests/` after the url 
 
 ### Running tests
 
-* **Local node tests**
+##### Local node tests
 
-    ```
     node node_modules/intern/client.js config=tests/intern        
-    ```
-    Previously we need to start PhatomJS in your terminal
     
-    ```
+Previously we need to start PhatomJS in your terminal
+    
     phantomjs --webdriver=4444
-	```
-* **Local browser tests**
 
-    Navigate to `http://somePath/tests/node_modules/intern/client.html?config=tests/intern`, making sure to adjust the url to match your local web server.
+##### Local browser tests
 
-* **Remote node / browser tests**
+Navigate to `http://somePath/tests/node_modules/intern/client.html?config=tests/intern`, making sure to adjust the url to match your local web server.
 
-	[Sauce Labs](https://saucelabs.com/) is enabled in the [**intern_full**](https://github.com/encuestame/enme-intern-test/blob/grunt-enme-intern/tests/intern_full.js) config file by default.
 
-    ```
-    node node_modules/intern/runner.js config=tests/intern_full
-    ```
-
-### Travis-ci
-
-Encuestame is currently connected with Travis continous integration, every push trigger a remote build.
-
-### Selenium
-Run Intern locally is straightforward, follow the next steps:
+##### Runing with Selenium
+Run Intern locally is quite straightforward, follow the next steps:
 
 ````
-$ brew install selenium-server-standalone chromedriver
-$ git clone git@github.com:theintern/intern.git
-$ java -jar /usr/local/opt/selenium-server-standalone/selenium-server-standalone-2.xx.0.jar -p 4444 &
-$ node node_modules/intern/runner.js config=tests/selenium.local.test
+$ java -jar webdrivers/selenium-grid/selenium-server-standalone-2.41.0.jar -p 4444 &
+$ node node_modules/intern/runner.js config=tests/intern_local.js
 ````
 ### 
+
+##### Remote node / browser tests
+
+[Sauce Labs](https://saucelabs.com/) is enabled in the [**intern_full**](https://github.com/encuestame/enme-intern-test/blob/grunt-enme-intern/tests/intern_full.js) config file by default.
+
+    node node_modules/intern/runner.js config=tests/intern_full
+
+### Continous Integration
+   
+#### Travis-ci
+
+Encuestame is currently connected with Travis continous integration, every push trigger a remote build.
